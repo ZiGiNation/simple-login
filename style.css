@@ -1,0 +1,63 @@
+:root {
+    --primary: #ddd;
+    --dark: #333;
+    --light: #fff;
+    --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+ }
+
+html {
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    color: var(--dark);
+ }
+
+body {
+    background-color: #ccc;
+    line-height: 30px;
+ }
+
+.nav{
+    margin: 100px 500px;
+ }
+
+.nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #13232f;
+ }
+
+.nav li{
+    float: left;
+ }
+
+.nav li a {
+    display: block;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    color:var(--light);
+    transition:.5s ease;
+    
+  }
+  
+.nav li a:hover{
+      color: var(--shadow);
+  }
+
+  /* END NAVIGATION */
+
+  .login-wrap{
+    background-color: #13232f;
+    margin: 100px 750px;
+    text-align: center;
+    color: var(--light);;
+  }
+
+.footer {
+    background-color: #13232f;
+    color: var(--light);
+    text-align: center;
+    margin: 100px 500px;
+ }
